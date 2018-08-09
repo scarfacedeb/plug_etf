@@ -16,7 +16,8 @@ defmodule PlugEtf.MixProject do
 
   defp deps do
     [
-      {:plug, "~> 1.6"}
+      {:plug, "~> 1.6"},
+      {:ex_doc, "~> 0.19", only: :dev}
     ]
   end
 
